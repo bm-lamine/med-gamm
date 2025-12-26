@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Project Specific - Ignore the dynamic uploads/results
+static/original.jpg
+static/processed.jpg
+static/*.png
+static/*.jpeg
+
+# Data/Temp Files
+.DS_Store
+*.log
